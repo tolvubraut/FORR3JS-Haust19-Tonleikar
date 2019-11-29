@@ -1,0 +1,33 @@
+body {
+    max-width: 60em;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(https://i.dlpng.com/static/png/5441843-best-blue-background-stock-photos-pictures-royalty-free-images-blue-background-612_408_preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;}
+main {
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    text-align: center;}
+main div {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;}
+.search {
+    display: block;
+    width: 20%;}
+.date {
+    display: block;
+    width: 20%;}
+.hide {
+    display: none;}
+p {
+    font-family: Arial, Helvetica, Sans-serif;}
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;}
